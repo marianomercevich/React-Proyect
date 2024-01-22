@@ -1,0 +1,18 @@
+.icon{
+    border-radius: 50%;
+    background-color: #46a5bd;
+    padding: 20px;
+    font-size: 16px !important;
+}
+.heading{
+    color: #183B56 !important;
+}
+.icons{
+    border-radius: 50%;
+    color: white;
+    width: 15px;
+    height: 15px;
+    background-color: #183B56;
+    font-size: 10px !important;
+    padding: 2px;
+}

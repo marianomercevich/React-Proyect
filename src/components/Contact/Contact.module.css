@@ -1,0 +1,22 @@
+.cheading{
+    color: #183b56;
+}
+.icolor{
+    color: #0076a3;
+}
+.background{
+    background-color: #0076a3;
+    width:150px;
+    height: 300px;
+    position: absolute;
+    top: -20px;
+    right: 30px;
+    border-radius: 10px;
+    z-index: -999;
+}
+
+@media (max-width: 767px){
+    .background{
+        display: none;
+    }
+}

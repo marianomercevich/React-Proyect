@@ -1,0 +1,10 @@
+.socialicon{
+    border: 1px dashed rgba(0,118,163,.15);
+    color:#0076A3;
+    padding: 10px;
+}
+.footer{
+    background-color: #183B56;
+    padding: 100px 0;
+    position: relative;
+}
