@@ -27,9 +27,6 @@ export default function Navbar({loginuser,logout}) {
           <Link className="nav-link text-white text-uppercase me-4" to="Application">Application</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link text-white text-uppercase me-4" to="News">News</Link>
-        </li>
-        <li className="nav-item">
           <Link className="nav-link text-white text-uppercase me-4" to="Contact">Contact</Link>
         </li>
       </ul>
