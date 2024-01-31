@@ -1,9 +1,17 @@
 import React, {useState}from 'react'
-import { Link } from 'react-router-dom';
+import Navbar from '../Navbar/Navbar'
+import Card from '../Card/Card'
+
 
 export default function Dashboard() {
     return (
-            <div><h1>Bienvenido ....</h1></div>
+        <>
+        <Navbar/>
+        <Card/>
+        <Card/>
+        <Card/>
+        <footer/>
+        </>
     )
   }
 

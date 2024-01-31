@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Pricing.module.css';
+import { Link } from 'react-router-dom';
 
 export default function Pricing({productitem,setpackages}) {
 
@@ -27,7 +28,9 @@ export default function Pricing({productitem,setpackages}) {
                         <h5 className={`${styles.pheading} my-4 h6 font-monospace`}><i className="fa-solid fa-circle-xmark text-danger me-3"></i> Chat Support</h5>
                         <h5  className={`${styles.pheading} my-4 h6 font-monospace`}><i className="fa-solid fa-circle-xmark text-danger me-3"></i> No transaction fees</h5>
                         <h5  className={`${styles.pheading} my-4 h6 font-monospace`}><i className="fa-solid fa-circle-xmark text-danger me-3"></i> Unlimited Storage</h5>
-                        <button onClick={()=>setpackages(product)} className='px-4 btn-price2 text-capitalize py-1'><i className="fa-solid fa-check-double me-2"></i> buy now</button>
+                        <Link to="/login">
+                            <button onClick={()=>setpackages(product)} className='px-4 btn-price2 text-capitalize py-1'><i className="fa-solid fa-check-double me-2"></i> buy now</button>
+                        </Link>
                     </div>
                 </div>
             </div>
